@@ -1,0 +1,53 @@
+{
+  "name": "defer-render-hoc",
+  "version": "0.1.0",
+  "description": "React defer render HOC",
+  "main": "./dist/defer-render-hoc.min.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/defer-render-hoc.git"
+  },
+  "homepage": "https://github.com/hanford/defer-render-hoc",
+  "bugs": "https://github.com/hanford/defer-render-hoc/issues",
+  "scripts": {
+    "build": "webpack -p",
+    "prepare": "npm run build"
+  },
+  "authors": [
+    "Jack Hanford"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "~6.24.1",
+    "babel-loader": "~6.4.1",
+    "babel-preset-env": "~1.5.2",
+    "babel-preset-react": "~6.24.1",
+    "babel-preset-stage-0": "~6.24.1",
+    "react": "~15.5.3",
+    "react-dom": "~15.5.3",
+    "webpack": "~2.3.3"
+  },
+  "dependencies": {
+    "raf": "~3.4.0"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "tags": [
+    "react",
+    "defer",
+    "hoc",
+    "request",
+    "request animation frame",
+    "rAF"
+  ],
+  "keywords": [
+    "react",
+    "defer",
+    "hoc",
+    "request",
+    "request animation frame",
+    "rAF"
+  ]
+}
