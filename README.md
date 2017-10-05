@@ -1,6 +1,6 @@
 ## defer-render-hoc
 
-<p>Defer expensive react rendering with rAF</p>
+Defer expensive react rendering with [rAF](https://www.npmjs.com/package/raf)
 
 <br />
 
@@ -14,7 +14,7 @@ $ npm install defer-render-hoc --save
 
 ```js
 import React, { Component } from 'react'
-import Scroll from 'defer-render-hoc'
+import DeferRender from 'defer-render-hoc'
 
 class RandomComp extends Component {
   ...
