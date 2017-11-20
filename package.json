@@ -28,6 +28,7 @@
     "webpack": "~2.3.3"
   },
   "dependencies": {
+    "hoist-non-react-statics": "~2.3.1",
     "raf": "~3.4.0"
   },
   "peerDependencies": {
