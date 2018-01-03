@@ -11,7 +11,10 @@
   "bugs": "https://github.com/hanford/defer-render-hoc/issues",
   "scripts": {
     "build": "webpack -p",
-    "prepare": "npm run build"
+    "prepare": "npm run build",
+    "test": "jest",
+    "test.watch": "jest --watch",
+    "test.cover": "jest --coverage"
   },
   "authors": [
     "Jack Hanford"
@@ -23,6 +26,10 @@
     "babel-preset-env": "~1.5.2",
     "babel-preset-react": "~6.24.1",
     "babel-preset-stage-0": "~6.24.1",
+    "enzyme": "~3.3.0",
+    "enzyme-adapter-react-16": "~1.1.1",
+    "enzyme-to-json": "~3.3.0",
+    "jest": "~22.0.4",
     "react": "~16.0.0",
     "react-dom": "~16.0.0",
     "webpack": "~2.3.3"
@@ -50,5 +57,23 @@
     "request",
     "request animation frame",
     "rAF"
-  ]
+  ],
+  "jest": {
+    "setupFiles": [
+      "./src/shim.js",
+      "./src/setupTests.js"
+    ],
+    "collectCoverageFrom": [
+      "src/*.js",
+      "!src/{setupTests,shim}.js"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  }
 }
