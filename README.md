@@ -29,4 +29,7 @@ class RandomComp extends Component {
 export default DeferRender(RandomComp)
 ```
 
+## Demo
+See this [CodeSandbox for a demo](https://codesandbox.io/s/pjxkjjxv8m).
+
 MIT © [Jack Hanford](http://jackhanford.com)
