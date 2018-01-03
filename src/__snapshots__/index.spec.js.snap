@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Wrapped Component after two animation frames 1`] = `""`;
+
+exports[`should render Wrapped Component after two animation frames 2`] = `""`;
+
+exports[`should render Wrapped Component after two animation frames 3`] = `
+<Test
+  name="Abe"
+/>
+`;
